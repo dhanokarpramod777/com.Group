@@ -17,8 +17,8 @@ public static WebDriver getChromeDriver() throws InterruptedException {
 		driver.manage().window().maximize();
 		Thread.sleep(1000);
 		return driver;
-		
-	}
+
+}
 static ExtentHtmlReporter htmlReporter;
 static ExtentReports report;
 static ExtentTest test;
